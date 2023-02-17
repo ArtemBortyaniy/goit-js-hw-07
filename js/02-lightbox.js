@@ -17,7 +17,7 @@ const dataGallery = galleryItems.map(renderGallery).join('');
 
 listEl.insertAdjacentHTML('beforeend', dataGallery);
 
-var lightbox = new SimpleLightbox('.gallery a', { /* options */ });
+var lightbox = new SimpleLightbox('.gallery a', { title:250});
 
 
 
